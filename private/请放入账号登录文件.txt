@@ -1,0 +1,7 @@
+请将旧项目 private 文件夹中的以下文件复制到这里：
+account_KAKOMAY.json
+account_YOUT.json
+account_SUP.json
+
+这些文件包含登录状态，不要发送给其他人。
+也可以运行 save_login.py 重新登录保存。

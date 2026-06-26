@@ -1,0 +1,15 @@
+{
+  "sales_url": "https://crewsupply-web-gi7me3n4rq-de.a.run.app/sales/sales",
+  "headless": false,
+  "page_timeout_ms": 120000,
+  "awb_timeout_ms": 600000,
+  "accounts": [
+    {"name": "account_KAKOMAY", "state": "private/account_KAKOMAY.json"},
+    {"name": "account_YOUT", "state": "private/account_YOUT.json"},
+    {"name": "account_SUP", "state": "private/account_SUP.json"}
+  ],
+  "selectors": {
+    "status_placeholder": "#react-select-4-placeholder",
+    "to_ship_option": "#react-select-4-option-2"
+  }
+}

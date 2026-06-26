@@ -1,0 +1,498 @@
+test_download_all_disabled (test_no_orders.NoOrdersDetectionTest.test_download_all_disabled) ... ok
+test_download_all_missing (test_no_orders.NoOrdersDetectionTest.test_download_all_missing) ... ok
+test_normal_download_ready (test_no_orders.NoOrdersDetectionTest.test_normal_download_ready) ... ok
+test_real_page_timeout_propagates (test_no_orders.NoOrdersDetectionTest.test_real_page_timeout_propagates) ... ok
+test_excel_does_not_write_duplicate_shipping_rows (test_step3_dedup.Step3DedupPipelineTest.test_excel_does_not_write_duplicate_shipping_rows) ... [pdf] 1/2 开始 SKU US 11 900003.pdf
+[pdf] 1/2 完成 SKU US 11 900003.pdf FEDEX SUCCESS
+[pdf] 2/2 开始 SKU US 11 900003.pdf
+ok
+test_processed_dir_not_scanned_and_yesterday_skipped (test_step3_dedup.Step3DedupPipelineTest.test_processed_dir_not_scanned_and_yesterday_skipped) ... ok
+test_same_filename_different_content_outputs_two (test_step3_dedup.Step3DedupPipelineTest.test_same_filename_different_content_outputs_two) ... [pdf] 1/2 开始 SKU US 10 900002.pdf
+[pdf] 1/2 完成 SKU US 10 900002.pdf FEDEX SUCCESS
+[pdf] 2/2 开始 SKU US 10 900002.pdf
+[pdf] 2/2 完成 SKU US 10 900002.pdf FEDEX SUCCESS
+ok
+test_same_pdf_copied_twice_outputs_once (test_step3_dedup.Step3DedupPipelineTest.test_same_pdf_copied_twice_outputs_once) ... [pdf] 1/2 开始 SKU US 9 900001-copy.pdf
+[pdf] 1/2 完成 SKU US 9 900001-copy.pdf FEDEX SUCCESS
+[pdf] 2/2 开始 SKU US 9 900001.pdf
+ok
+test_corrupt_pdf_fails_safely (test_step4_pdf_processing.Step4PdfProcessingTest.test_corrupt_pdf_fails_safely) ... ok
+test_fedex_hash_unchanged (test_step4_pdf_processing.Step4PdfProcessingTest.test_fedex_hash_unchanged) ... ok
+test_missing_address_for_ups_fails_without_deleting_source (test_step4_pdf_processing.Step4PdfProcessingTest.test_missing_address_for_ups_fails_without_deleting_source) ... ok
+test_unknown_copied_without_modification (test_step4_pdf_processing.Step4PdfProcessingTest.test_unknown_copied_without_modification) ... ok
+test_ups_overlay (test_step4_pdf_processing.Step4PdfProcessingTest.test_ups_overlay) ... ok
+test_usps_erase (test_step4_pdf_processing.Step4PdfProcessingTest.test_usps_erase) ... ok
+test_report_rules_and_summary (test_step5_shipping_report.Step5ShippingReportTest.test_report_rules_and_summary) ... ok
+test_download_existing_excel_and_zip_endpoints (test_step6_mobile_server.Step6MobileServerTest.test_download_existing_excel_and_zip_endpoints) ... ok
+test_duplicate_production_click_does_not_start_second_process (test_step6_mobile_server.Step6MobileServerTest.test_duplicate_production_click_does_not_start_second_process) ... ok
+test_duplicate_start_is_rejected (test_step6_mobile_server.Step6MobileServerTest.test_duplicate_start_is_rejected) ... ok
+test_home_page_loads (test_step6_mobile_server.Step6MobileServerTest.test_home_page_loads) ... ok
+test_home_page_utf8_chinese_not_garbled (test_step6_mobile_server.Step6MobileServerTest.test_home_page_utf8_chinese_not_garbled) ... ok
+test_illegal_download_path_rejected (test_step6_mobile_server.Step6MobileServerTest.test_illegal_download_path_rejected) ... ok
+test_incomplete_rerun_plan_skips_completed_accounts (test_step6_mobile_server.Step6MobileServerTest.test_incomplete_rerun_plan_skips_completed_accounts) ... ok
+test_pending_accounts_rejects_yout_in_pending_list (test_step6_mobile_server.Step6MobileServerTest.test_pending_accounts_rejects_yout_in_pending_list) ... ok
+test_pending_accounts_running_state_blocks_execution (test_step6_mobile_server.Step6MobileServerTest.test_pending_accounts_running_state_blocks_execution) ... ok
+test_production_home_hides_single_account_debug (test_step6_mobile_server.Step6MobileServerTest.test_production_home_hides_single_account_debug) ... ok
+test_production_mode_independent_from_test_real_run_limit (test_step6_mobile_server.Step6MobileServerTest.test_production_mode_independent_from_test_real_run_limit) ... ok
+test_second_production_run_same_day_is_rejected (test_step6_mobile_server.Step6MobileServerTest.test_second_production_run_same_day_is_rejected) ... ok
+test_status_does_not_leak_sensitive_values (test_step6_mobile_server.Step6MobileServerTest.test_status_does_not_leak_sensitive_values) ... ok
+test_status_json_utf8_chinese_round_trip (test_step6_mobile_server.Step6MobileServerTest.test_status_json_utf8_chinese_round_trip) ... ok
+test_status_refreshes_counts_from_latest_report (test_step6_mobile_server.Step6MobileServerTest.test_status_refreshes_counts_from_latest_report) ... ok
+test_stop_without_task_is_ok (test_step6_mobile_server.Step6MobileServerTest.test_stop_without_task_is_ok) ... ok
+test_stopped_production_status_does_not_fallback_to_old_recovery_report (test_step6_mobile_server.Step6MobileServerTest.test_stopped_production_status_does_not_fallback_to_old_recovery_report) ... ok
+test_testing_mode_real_run_limit_blocks_run_all_without_popen (test_step6_mobile_server.Step6MobileServerTest.test_testing_mode_real_run_limit_blocks_run_all_without_popen) ... ok
+test_27_success_plus_hold_is_partial_success (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_27_success_plus_hold_is_partial_success) ... ok
+test_account_failed_not_in_shipping_rows (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_account_failed_not_in_shipping_rows) ... ok
+test_awb_modal_timeout_not_in_shipping_rows (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_awb_modal_timeout_not_in_shipping_rows) ... ok
+test_awb_modal_timeout_status_when_download_stays_disabled (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_awb_modal_timeout_status_when_download_stays_disabled) ... [heartbeat] 当前账号=account_YOUT 当前步骤=生成AWB 已运行秒数=0
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+Screenshot: /mnt/data/crew_v2_work/tests/results/step7_20260626_172211_f5d5/172211_awb_modal_timeout.png
+HTML summary: /mnt/data/crew_v2_work/tests/results/step7_20260626_172211_f5d5/172211_awb_modal_timeout.html
+ok
+test_bulk_only_modal_waits_for_result_rows_before_download (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_bulk_only_modal_waits_for_result_rows_before_download) ... ok
+test_completed_real_runs_count_remains_correct (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_completed_real_runs_count_remains_correct) ... ok
+test_download_button_clicks_once (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_download_button_clicks_once) ... [download] 点击弹窗Download
+ok
+test_download_button_disabled_then_enabled (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_download_button_disabled_then_enabled) ... ok
+test_duplicate_hold_order_is_deduped (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_duplicate_hold_order_is_deduped) ... ok
+test_failed_text_with_download_ready_still_downloads (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_failed_text_with_download_ready_still_downloads) ... ok
+test_history_zip_is_not_moved_or_selected (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_history_zip_is_not_moved_or_selected) ... ok
+test_hold_and_download_ready_is_partial_success_candidate (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_hold_and_download_ready_is_partial_success_candidate) ... ok
+test_json_download_url_can_be_extracted_and_saved (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_json_download_url_can_be_extracted_and_saved) ... ok
+test_no_hold_text_does_not_create_90933046 (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_no_hold_text_does_not_create_90933046) ... ok
+test_offline_tests_use_fake_network_inputs (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_offline_tests_use_fake_network_inputs) ... ok
+test_only_click_time_new_zip_is_selected (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_only_click_time_new_zip_is_selected) ... ok
+test_parse_hold_sale_id_and_success_count (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_parse_hold_sale_id_and_success_count) ... ok
+test_precheck_failed_does_not_consume_real_run_quota (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_precheck_failed_does_not_consume_real_run_quota) ... ok
+test_real_run_limit_atomic_write_replaces_tmp (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_real_run_limit_atomic_write_replaces_tmp) ... ok
+test_real_run_limit_reads_plain_utf8_json (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_real_run_limit_reads_plain_utf8_json) ... ok
+test_real_run_limit_reads_utf8_bom_json (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_real_run_limit_reads_utf8_bom_json) ... ok
+test_real_run_limit_rejects_after_two (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_real_run_limit_rejects_after_two) ... ok
+test_real_run_limit_write_has_no_bom (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_real_run_limit_write_has_no_bom) ... ok
+test_startup_precheck_failure_does_not_require_site_config (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_startup_precheck_failure_does_not_require_site_config) ... ok
+test_timeout_does_not_reopen_awb_modal_or_regenerate (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_timeout_does_not_reopen_awb_modal_or_regenerate) ... [heartbeat] 当前账号=account_YOUT 当前步骤=生成AWB 已运行秒数=0
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+[awb] modal_state=waiting button_exists=True enabled=False text=Bulk downloading Air Waybill for all 29 sales Bulk download may take a while for large amount of items. Download
+Screenshot: /mnt/data/crew_v2_work/tests/results/step7_20260626_172211_ab3d/172211_awb_modal_timeout.png
+HTML summary: /mnt/data/crew_v2_work/tests/results/step7_20260626_172211_ab3d/172211_awb_modal_timeout.html
+ok
+test_trace_fixture_has_modal_download_before_background_download (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_trace_fixture_has_modal_download_before_background_download) ... ok
+test_trace_fixture_parses_hold_90933046 (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_trace_fixture_parses_hold_90933046) ... ok
+test_zero_success_with_hold_and_download_failed_is_failed (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_zero_success_with_hold_and_download_failed_is_failed) ... ok
+test_zip_failure_keeps_hold_in_exception_sheet (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_zip_failure_keeps_hold_in_exception_sheet) ... ok
+test_zip_response_body_can_be_saved (test_step7_awb_hold_download.Step7AwbHoldDownloadTest.test_zip_response_body_can_be_saved) ... ok
+test_mobile_home_displays_version (test_v2_stability.V2StabilityTest.test_mobile_home_displays_version) ... ok
+test_old_running_status_with_dead_pid_is_interrupted (test_v2_stability.V2StabilityTest.test_old_running_status_with_dead_pid_is_interrupted) ... ok
+test_signed_url_is_primary_download_path_and_clicks_once (test_v2_stability.V2StabilityTest.test_signed_url_is_primary_download_path_and_clicks_once) ... [download] 点击弹窗Download
+ok
+
+----------------------------------------------------------------------
+Ran 66 tests in 1.378s
+
+OK

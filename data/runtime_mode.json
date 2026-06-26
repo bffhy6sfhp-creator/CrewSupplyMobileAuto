@@ -1,0 +1,8 @@
+{
+  "mode": "production",
+  "production_enabled": true,
+  "allow_mobile_run": true,
+  "max_runs_per_day": 1,
+  "require_confirmation": true,
+  "show_account_debug": false
+}
